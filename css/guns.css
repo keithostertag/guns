@@ -6,8 +6,6 @@ html {
 }
 
 body {
-  margin: 0;
-  padding: 0;
   height: 100vh;
   width: auto;
 }
@@ -54,7 +52,6 @@ header  {
   display: block;
   height: 60%;
   position: relative;
-
 }
 
 /* photo class generated in js file */
@@ -130,7 +127,6 @@ header  {
 
 #h_1, #h_3 {
   font-size: 1.5rem;
-  /*white-space: nowrap;*/
 }
 
 #h_2  {
