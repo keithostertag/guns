@@ -3,11 +3,12 @@ $(document).ready(function()  {
   var media_query = window.matchMedia("(min-width: 660px)");
     if (media_query.matches)  {
       $('#images').html("<img src=images/kimber_ultra-cdpii-1.jpg  class='photo'>" );
-  
+
       const blackBull = "images/bullseye.svg";
       const redBull = "images/bullseye-red.svg";
       const greenBull = "images/bullseye-green.svg";
 
+// For no particular reason other than fun, change bullseye svg icons (rather than use styling for color)
         // choose which color bullseye svg depending on user action
         $( ".guns img" ).on({
           mouseenter: function()  {

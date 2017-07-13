@@ -21,6 +21,7 @@ header  {
   justify-content:center;
 }
 
+/*breaking header into three parts in order to style individually*/
 #h_1, #h_3 {
   font-size: 2rem;
   white-space: nowrap;
@@ -99,7 +100,7 @@ label   {
   font-weight: bold;
 }
 
-/* h3 tags generated for descriptions in js file */
+/* h3 tags generated for descriptions in the js file */
 h3  {
   text-align: center;
   margin-top: 0;
